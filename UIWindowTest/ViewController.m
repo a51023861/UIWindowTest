@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "PasswordInputWindow.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor greenColor];
 }
 
 
@@ -24,6 +24,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    PasswordInputWindow * window = [PasswordInputWindow sharedInstance];
+    [window show];
+    
+    
+    
+}
 
 @end
