@@ -15,6 +15,7 @@
 		13A8540A1DA4B506009B7D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A854081DA4B506009B7D25 /* LaunchScreen.storyboard */; };
 		13A854151DA4B507009B7D25 /* UIWindowTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A854141DA4B507009B7D25 /* UIWindowTestTests.m */; };
 		13A854201DA4B507009B7D25 /* UIWindowTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A8541F1DA4B507009B7D25 /* UIWindowTestUITests.m */; };
+		13A8542F1DA4B538009B7D25 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A8542E1DA4B538009B7D25 /* PasswordInputWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		13A8541B1DA4B507009B7D25 /* UIWindowTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWindowTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A8541F1DA4B507009B7D25 /* UIWindowTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWindowTestUITests.m; sourceTree = "<group>"; };
 		13A854211DA4B507009B7D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A8542D1DA4B538009B7D25 /* PasswordInputWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordInputWindow.h; sourceTree = "<group>"; };
+		13A8542E1DA4B538009B7D25 /* PasswordInputWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				13A853FE1DA4B506009B7D25 /* AppDelegate.m */,
 				13A854001DA4B506009B7D25 /* ViewController.h */,
 				13A854011DA4B506009B7D25 /* ViewController.m */,
+				13A8542D1DA4B538009B7D25 /* PasswordInputWindow.h */,
+				13A8542E1DA4B538009B7D25 /* PasswordInputWindow.m */,
 				13A854031DA4B506009B7D25 /* Main.storyboard */,
 				13A854061DA4B506009B7D25 /* Assets.xcassets */,
 				13A854081DA4B506009B7D25 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				13A854021DA4B506009B7D25 /* ViewController.m in Sources */,
 				13A853FF1DA4B506009B7D25 /* AppDelegate.m in Sources */,
 				13A853FC1DA4B506009B7D25 /* main.m in Sources */,
+				13A8542F1DA4B538009B7D25 /* PasswordInputWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
